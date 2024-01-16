@@ -1,4 +1,4 @@
-# shwe_bo_2d_3d
+# myo_ma_lottery
 
 A new Flutter project.
 
