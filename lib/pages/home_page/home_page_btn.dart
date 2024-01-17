@@ -21,13 +21,20 @@ class HomePageBTN extends StatelessWidget {
               imageUrl,
               width: 160,
             )),
-        Text(
-          text,
-          style: TextStyle(
-            color: Get.theme.colorScheme.onPrimary,
-            fontFamily: "Noto Sans Myanmar",
-            fontWeight: FontWeight.w700,
-            fontSize: 14,
+        Center(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                text,
+                style: TextStyle(
+                  color: Get.theme.colorScheme.onPrimary,
+                  fontFamily: "Noto Sans Myanmar",
+                  fontWeight: FontWeight.w700,
+                  fontSize: 14,
+                ),
+              ),
+            ],
           ),
         )
       ],
