@@ -21,6 +21,17 @@ const bottomBarColor = LinearGradient(
   ],
 );
 
+const backGroundGradient = LinearGradient(
+  begin: Alignment.topLeft,
+  end: Alignment.bottomRight,
+  colors: [
+    Color(0xFF0E1647),
+    Color(0xFF0A1033),
+  ],
+);
+
+const textColor1 = Color(0xFFFFE9F8);
+const containerColor = Color(0xFF2B3576);
 
 const lightColorScheme = ColorScheme(
   brightness: Brightness.light,
@@ -28,7 +39,7 @@ const lightColorScheme = ColorScheme(
   onPrimary: Color(0xFFFFFFFF),
   primaryContainer: Color(0xFFFFD9DD),
   onPrimaryContainer: Color(0xFF400013),
-  secondary: Color(0xFF4153C4),
+  secondary: Color(0xFF495BCC),
   onSecondary: Color(0xFFFFFFFF),
   secondaryContainer: Color(0xFFDEE0FF),
   onSecondaryContainer: Color(0xFF000E5E),
@@ -57,7 +68,7 @@ const lightColorScheme = ColorScheme(
 );
 
 const darkColorScheme = ColorScheme(
- brightness: Brightness.dark,
+  brightness: Brightness.dark,
   primary: Color(0xFFFFB2BD),
   onPrimary: Color(0xFF670024),
   primaryContainer: Color(0xFF900036),

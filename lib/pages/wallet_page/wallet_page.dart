@@ -5,6 +5,6 @@ class WalletPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text('adfasdf');
+    return Scaffold();
   }
 }
