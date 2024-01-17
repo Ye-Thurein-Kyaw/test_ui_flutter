@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:shwe_bo_2d_3d/pages/home_page/home_page_btn.dart';
 import 'package:shwe_bo_2d_3d/pages/home_page/home_page_btn_row.dart';
+import 'package:shwe_bo_2d_3d/pages/two_d_preview_page/two_d_preview_page.dart';
 import 'package:shwe_bo_2d_3d/utils/color_scheme.dart';
 import 'package:shwe_bo_2d_3d/widgets/my_wallet_container.dart';
 
@@ -16,7 +18,6 @@ class HomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 600,
               decoration: const BoxDecoration(gradient: backGroundGradient),
               child: Padding(
                 padding:
@@ -26,9 +27,15 @@ class HomePage extends StatelessWidget {
                     const MyWalletContainer(
                       visibleSecond: true,
                     ),
+                    const SizedBox(
+                      height: 16,
+                    ),
+                    Image.asset('assets/images/home_page_ads.png'),
                     BtnRow(
                       firstImageUrl: "assets/images/two_d_Button.png",
-                      firstOnTap: () {},
+                      firstOnTap: () {
+                        Get.toNamed(TwoDPreviewPage.route);
+                      },
                       firstText: '၂လုံးထီ',
                       secondImageUrl: "assets/images/three_d_Button.png",
                       secondOnTap: () {},
@@ -37,18 +44,18 @@ class HomePage extends StatelessWidget {
                     BtnRow(
                       firstImageUrl: "assets/images/two_d_Button.png",
                       firstOnTap: () {},
-                      firstText: '၂လုံးထီ',
+                      firstText: 'ရိုးရားဂိမ်း',
                       secondImageUrl: "assets/images/three_d_Button.png",
                       secondOnTap: () {},
-                      secondText: '၃လုံးထီ',
+                      secondText: 'A8 ရှမ်းကိုးမီး',
                     ),
                     BtnRow(
                       firstImageUrl: "assets/images/two_d_Button.png",
                       firstOnTap: () {},
-                      firstText: '၂လုံးထီ',
+                      firstText: 'Live 22',
                       secondImageUrl: "assets/images/three_d_Button.png",
                       secondOnTap: () {},
-                      secondText: '၃လုံးထီ',
+                      secondText: 'ကြက်တိုက်ဂိမ်း',
                     ),
                     Row(
                       children: [
