@@ -4,7 +4,8 @@ class ElevatedBtn extends StatelessWidget {
   final BorderRadiusGeometry? borderRadius;
   final double? width;
   final double height;
-  final Color buttonColor;
+  final Color? buttonColor;
+  final Gradient? gradient;
   final VoidCallback? onPressed;
   final Widget child;
 
@@ -16,6 +17,7 @@ class ElevatedBtn extends StatelessWidget {
     this.width = double.infinity,
     this.height = 48.0,
     this.buttonColor = const Color(0xFFBD0049),
+    this.gradient,
   }) : super(key: key);
 
   @override
@@ -25,8 +27,9 @@ class ElevatedBtn extends StatelessWidget {
       width: width,
       height: height,
       decoration: BoxDecoration(
-        color: buttonColor,
         borderRadius: borderRadius,
+        color: buttonColor,
+        gradient: gradient,
       ),
       child: ElevatedButton(
         onPressed: onPressed,

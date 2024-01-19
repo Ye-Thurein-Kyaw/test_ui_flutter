@@ -2,7 +2,7 @@ import 'package:enefty_icons/enefty_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shwe_bo_2d_3d/controllers/two_d_prview_page_controller.dart';
-import 'package:shwe_bo_2d_3d/pages/two_d_preview_page/two_d_pre_live_widget.dart';
+import 'package:shwe_bo_2d_3d/pages/two_d/two_d_preview_page/two_d_pre_live_widget.dart';
 import 'package:shwe_bo_2d_3d/utils/color_scheme.dart';
 import 'package:shwe_bo_2d_3d/utils/global_function.dart';
 import 'package:shwe_bo_2d_3d/widgets/my_wallet_container.dart';
