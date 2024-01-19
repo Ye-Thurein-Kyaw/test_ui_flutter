@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shwe_bo_2d_3d/controllers/two_d_prview_page_controller.dart';
-import 'package:shwe_bo_2d_3d/pages/two_d_preview_page/time_select_dialog.dart';
+import 'package:shwe_bo_2d_3d/pages/two_d/two_d_preview_page/time_select_dialog.dart';
 import 'package:shwe_bo_2d_3d/widgets/elevated_button.dart';
 
 class TwoDPreLiveWidget extends StatelessWidget {
